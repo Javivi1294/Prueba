@@ -1,0 +1,43 @@
+html{
+    scroll-behavior: auto !important;
+}
+
+body{
+    background-color: black;
+}
+
+/* Barra de navegación */
+
+#barranav{
+    background-image: url("../img/carousel1.jpg");
+    background-size: cover;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
+.navbar-brand{
+    font-family: "Oswald";
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* ¿Quienes somos? */
+
+#quienes{
+    background-color: black;
+    
+}
+
+#iconos{
+    background-position: center;
+    position: relative;
+}
+
+/* se cambia estilo de íconos */
+
+#footer a {
+    color: white;
+    text-decoration: none;
+
+}
